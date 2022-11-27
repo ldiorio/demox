@@ -1,21 +1,23 @@
 {
-  "name": "cal_app",
+  "name": "calapp",
   "version": "1.0.0",
   "description": "node app ",
-  "main": "cal_demo1.js",
+  "main": "cal_demo2.js",
   "scripts": {
-    "start": "node cal_demo1.js"
-  },
+  "start": "node cal_demo2.js"
+},
   "repository": {
-    "type": "git",
-    "url": ""
-  },
+  "type": "git",
+  "url": ""
+},
   "author": "",
   "license": "ISC",
-  "homepage": "",
-  "dependencies": {
+  "bugs": {
+  "url": ""
+},
+"dependencies": {
     "calendar": "^0.1.1",
     "mongodb": "^3.6.3"
   },
-  "devDependencies": {}
+  "homepage": ""
 }
