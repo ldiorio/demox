@@ -2,9 +2,9 @@
   "name": "cal_app",
   "version": "1.0.0",
   "description": "node app ",
-  "main": "cal_demo2.js",
+  "main": "cal_demo1.js",
   "scripts": {
-    "start": "node cal_demo2.js"
+    "start": "node cal_demo1.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,6 @@
   "dependencies": {
     "calendar": "^0.1.1",
     "mongodb": "^3.6.3"
-  },
-  "directories": {
-    "example": "examples"
   },
   "devDependencies": {}
 }
