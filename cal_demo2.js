@@ -1,6 +1,8 @@
 c = require("calendar");
 var http = require('http');
-cal = new c.Calendar();               
+cal = new c.Calendar();      
+var port = process.env.PORT || 3000;
+//var port = 8080;
 m = cal.monthDates(2022,11, function(d) {
 		return (' '+d.getDate()).slice(-2)}, 
 		function(w) {
@@ -19,5 +21,5 @@ http.createServer(function (req, res) {
 	res.write(m[i] + "<br />")
  
  res.end("</body></html>");
-}).listen(8080);
+}).listen(port);
 
