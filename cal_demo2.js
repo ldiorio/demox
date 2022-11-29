@@ -14,6 +14,7 @@ m = cal.monthDates(2022,11, function(d) {
 );
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write ("<h1>My Calendar</h1>");
   res.write  ("<html><head><style type='text/css'>.col {display: inline-block; width:40px; border: 1px solid #333;} </style></head>");
   res.write("<body>Calendar for Nov 2022<br />");
 
